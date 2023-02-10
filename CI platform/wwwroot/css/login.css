@@ -67,12 +67,12 @@
 }
 
 @media screen and (max-width : 991px) {
-    .carousel-item img {
-        height: 100%;
-    }
-
     label{
         font-size:20px;
+    }
+
+    .carousel-item img{
+        height:100%;
     }
 
     p {
@@ -82,6 +82,7 @@
     .carousel-caption p{
         font-size: 15px;
     }
+
 }
 
 @media screen and (max-width : 500px) {
