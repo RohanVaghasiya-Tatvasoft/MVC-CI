@@ -43,6 +43,12 @@
 }
 
 #form {
+    display: grid;
+    grid-template-rows: 95vh 5vh;
+    align-items: center;
+}
+
+form {
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -51,7 +57,18 @@
     transition: 0s;
 }
 
+.PP {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 @media screen and (max-width : 991px) {
+    form {
+        margin-top: 50px
+    }
+    
     label {
         font-size: 20px;
     }
@@ -70,6 +87,10 @@
 
     #ResetBtn{
         font-size: 15px;
+    }
+
+    #form {
+        grid-template-rows: 30vh 10vh;
     }
 }
 
