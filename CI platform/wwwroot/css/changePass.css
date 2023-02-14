@@ -51,11 +51,11 @@
 }
 
 #InputPassword{
-    height: 56px;
+    height: 3rem;
 }
 
 #InputCheckPassword{
-    height: 56px;
+    height: 3rem;
 }
 
 #newPass{
@@ -85,10 +85,6 @@ form {
 }
 
 @media screen and (max-width : 991px) {
-    form{
-        margin-top : 50px
-    }
-
     label {
         font-size: 20px;
     }
@@ -110,13 +106,20 @@ form {
     }
 
     #form {
-        display: grid;
-        grid-template-rows: 40vh 10vh;
+        grid-template-rows: 70vh 5vh;
         align-items: center;
+    }
+
+    .PP{
+        align-items: flex-end;
     }
 }
 
 @media screen and (max-width : 500px) {
+    form {
+        padding-top: 10%;
+    }
+
     label {
         font-size: 15px;
     }
@@ -129,7 +132,24 @@ form {
         font-size: 10px;
     }
 
+    #InputPassword {
+        height: auto;
+    }
+
+    #InputCheckPassword {
+        height: auto;
+    }
+
+    #ChangeBtn {
+        height: auto;
+        margin-top: 2rem;
+    }
+
     #form {
-        grid-template-rows: 35vh 10vh;
+        grid-template-rows: auto;
+    }
+
+    .PP {
+        margin: 5% 0;
     }
 }
