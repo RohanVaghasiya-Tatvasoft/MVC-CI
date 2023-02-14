@@ -8,6 +8,16 @@
     margin: 0;
 }
 
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel {
+    padding: 0;
+    margin: 0;
+}
+
 #LoginBtn {
     border-radius: 50px;
     border: 2px solid #F88634;
@@ -18,14 +28,9 @@
     margin-top: 40px;
 }
 
-.row {
-    padding: 0;
-    margin: 0;
-}
-
-.carousel {
-    padding: 0;
-    margin: 0;
+#LoginBtn:hover {
+    color: #ffffff;
+    background-color: #F88634;
 }
 
 .form-group {
@@ -81,7 +86,7 @@ form {
 
 @media screen and (max-width : 991px) {
     form {
-        margin-top: 50px
+        margin-top: 50px;
     }
     
     label{
@@ -122,7 +127,4 @@ form {
         font-size: 10px;
     }
 
-    #form {
-        grid-template-rows: 3vh 10vh;
-    }
 }

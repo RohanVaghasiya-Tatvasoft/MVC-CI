@@ -13,7 +13,12 @@ namespace CI_platform.Controllers
             _logger = logger;
         }
 
-        public IActionResult Login()
+        public IActionResult login()
+        {
+            return View();
+        }
+
+        public IActionResult registration()
         {
             return View();
         }

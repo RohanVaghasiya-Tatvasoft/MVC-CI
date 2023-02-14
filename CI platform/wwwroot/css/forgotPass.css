@@ -27,6 +27,11 @@
     font-size: 20px;  
 }
 
+#ResetBtn:hover {
+    color: #ffffff;
+    background-color: #F88634;
+}
+
 .form-group {
     font-size: 22px;
     font-family: 'Segoe UI';
