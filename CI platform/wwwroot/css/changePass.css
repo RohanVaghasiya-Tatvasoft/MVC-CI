@@ -84,6 +84,13 @@ form {
     justify-content: center;
 }
 
+#indi {
+    border-radius: 90%;
+    width: 8px;
+    height: 8px;
+    margin: 10px;
+}
+
 @media screen and (max-width : 991px) {
     label {
         font-size: 20px;
@@ -106,12 +113,18 @@ form {
     }
 
     #form {
-        grid-template-rows: 70vh 5vh;
+        grid-template-rows: 40vh 5vh;
         align-items: center;
     }
 
     .PP{
         align-items: flex-end;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .carousel-indicators {
+        display: none;
     }
 }
 
