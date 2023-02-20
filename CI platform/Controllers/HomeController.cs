@@ -33,10 +33,7 @@ namespace CI_platform.Controllers
             return View();
         }
 
-        public IActionResult platformLandingPage()
-        {
-            return View();
-        }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
