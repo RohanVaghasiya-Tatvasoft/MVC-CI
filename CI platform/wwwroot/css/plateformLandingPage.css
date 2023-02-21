@@ -104,6 +104,10 @@
     height: 100%;
 }
 
+.list-view #mission-img{
+    width: 25vw;
+}
+
 .card-btn {
     height: 35px;
     width: 35px;
@@ -229,4 +233,24 @@
 
 .filters-section {
     margin-top: 2%;
+}
+
+
+
+/*No Mission Found Page*/
+
+#submit-new-mission-btn {
+    background-color: transparent;
+    border: 2px solid #F88634;
+    color: #F88634;
+    border-radius: 24px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+#submit-new-mission-btn :hover,
+{
+    color: #ffff;
+    background-color: #F88634
 }

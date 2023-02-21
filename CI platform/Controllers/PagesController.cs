@@ -8,5 +8,10 @@ namespace CI_platform.Controllers
         {
             return View();
         }
+
+        public IActionResult noMissionFound()
+        {
+            return View();
+        }
     }
 }
