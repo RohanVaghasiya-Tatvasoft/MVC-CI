@@ -489,6 +489,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\Tatvasoft\\CI\\MVC\\CI platform\\CI platform\\wwwroot\\js\\volunteeringMissionPage.js",
+      "PackagePath": "staticwebassets\\js\\volunteeringMissionPage.js"
+    },
+    {
       "Id": "D:\\Tatvasoft\\CI\\MVC\\CI platform\\CI platform\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
