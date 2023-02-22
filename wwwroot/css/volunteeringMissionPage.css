@@ -100,7 +100,11 @@
     margin-top: -30px;
 }
 
-#data{
+.middle-block{
+    width:21%;
+}
+
+#data {
     padding: 0 3rem 0 3rem;
 }
 
@@ -108,6 +112,13 @@
     #data {
         margin-top: 3vh;
         padding: 0 2rem 0 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .middle-block {
+        width: 45%;
+        margin-bottom: 3%;
     }
 }
 
