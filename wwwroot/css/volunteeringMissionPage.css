@@ -109,20 +109,6 @@
     padding: 0 3rem 0 3rem;
 }
 
-@media (max-width: 1199px) {
-    #data {
-        margin-top: 3vh;
-        padding: 0 2rem 0 2rem;
-    }
-}
-
-@media (max-width: 1199px) {
-    .middle-block {
-        width: 45%;
-        margin-bottom: 3%;
-    }
-}
-
 .applyNowBtn {
     width: 15rem;
     border-radius: 30px;
@@ -137,12 +123,11 @@
     width: 20px;
 }
 
+.middle {
+    margin-top: 3rem;
+}
 
 /* Tabs*/
-
-
-#tabs {
-}
 
     #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
         border-color: black;
@@ -193,4 +178,26 @@
 .info .pagging {
     height: 50px;
     border: #E8E8E8 1px solid;
+}
+
+@media (max-width: 1199px) {
+    #data {
+        margin-top: 3vh;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .middle-block {
+        width: 45%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 991px) {
+    .info {
+        margin-top: 3rem;
+    }
+
+    .middle{
+        margin-top: 1rem;
+    }
 }
