@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNccGxhdGZvcm1MYW5kaW5nUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Tatvasoft/CI/MVC/CI platform/CI platform/Views/Pages/storyListingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcc3RvcnlMaXN0aW5nUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Tatvasoft/CI/MVC/CI platform/CI platform/Views/Pages/volunteeringMissionPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcdm9sdW50ZWVyaW5nTWlzc2lvblBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

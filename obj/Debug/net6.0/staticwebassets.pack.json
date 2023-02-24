@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Tatvasoft\\CI\\MVC\\CI platform\\CI platform\\wwwroot\\css\\storyLandingPage.css",
+      "PackagePath": "staticwebassets\\css\\storyLandingPage.css"
+    },
+    {
       "Id": "D:\\Tatvasoft\\CI\\MVC\\CI platform\\CI platform\\wwwroot\\css\\volunteeringMissionPage.css",
       "PackagePath": "staticwebassets\\css\\volunteeringMissionPage.css"
     },

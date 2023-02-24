@@ -18,5 +18,10 @@ namespace CI_platform.Controllers
         {
             return View();
         }
+
+        public IActionResult storyListingPage()
+        {
+            return View();
+        }
     }
 }

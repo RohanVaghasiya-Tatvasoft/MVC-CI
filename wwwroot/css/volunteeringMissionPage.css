@@ -94,15 +94,15 @@
     border: solid 2px black;
     border-radius: 50px;
     width: 25rem;
-    height:4rem;
+    height: 4rem;
 }
 
 .rating {
     margin-top: -30px;
 }
 
-.middle-block{
-    width:21%;
+.middle-block {
+    width: 21%;
 }
 
 #data {
@@ -115,13 +115,13 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
     height: 4rem;
-    font-size:20px;
+    font-size: 20px;
 }
 
-.applyNowBtn img {
-    height: 15px;
-    width: 20px;
-}
+    .applyNowBtn img {
+        height: 15px;
+        width: 20px;
+    }
 
 .middle {
     margin-top: 3rem;
@@ -129,33 +129,34 @@
 
 /* Tabs*/
 
-    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-        border-color: black;
-        border-bottom: 4px solid !important;
-        font-size: 20px;
-        font-weight: bold;
-        margin:18px 0 0 0;
-    }
-
-    #tabs .nav-tabs .nav-link {
-        border: 1px solid transparent;
-        font-size: 20px;
-        width: fit-content;
-        margin: 18px 0 0 0;
-    }
-
-.doc_button{
-    background-color:white;
-    border-radius:20px;
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: black;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 18px 0 0 0;
 }
 
-.info p{
-    margin-bottom:0;
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    font-size: 20px;
+    width: fit-content;
+    margin: 18px 0 0 0;
+    color: black;
 }
 
-.info span span{
-    align-items:end;
-    font-size:10px;
+.doc_button {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.info p {
+    margin-bottom: 0;
+}
+
+.info span span {
+    align-items: end;
+    font-size: 10px;
 }
 
 
@@ -197,7 +198,7 @@
         margin-top: 3rem;
     }
 
-    .middle{
+    .middle {
         margin-top: 1rem;
     }
 }
